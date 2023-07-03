@@ -1,5 +1,6 @@
 {
     "name": "gericht",
+    "homepage":"http://MzabiCoder.github.io/reactProjec",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
