@@ -2,56 +2,56 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
+    title: 'Myra Reserve Shiraz',
+    price: '$90',
     tags: 'AU | Bottle',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
+    title: 'KRSMA Sangiovese',
+    price: '$89',
     tags: 'AU | Bottle',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
+    title: 'Zampa Chene Grande Reserve',
+    price: '$54',
     tags: 'FR | 750 ml',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
+    title: 'Charosa Sauvignon Blanc',
+    price: '$33',
     tags: 'CA | 750 ml',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
+    title: 'Grover Zampa La Reserve',
+    price: '$99',
     tags: 'IE | 750 ml',
   },
 ];
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
+    title: 'Daiquiri',
+    price: '$30',
     tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
+    title: "Dry Martini.",
+    price: '$60',
     tags: 'Dark rum | Ginger beer | Slice of lime',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
+    title: 'Margarita',
+    price: '$20',
     tags: 'Rum | Citrus juice | Sugar',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
+    title: 'Espresso Martini.',
+    price: '$41',
     tags: 'Bourbon | Brown sugar | Angostura Bitters',
   },
   {
-    title: 'Negroni',
-    price: '$26',
+    title: 'Whiskey Sour',
+    price: '$36',
     tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
   },
 ];

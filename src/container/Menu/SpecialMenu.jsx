@@ -1,18 +1,27 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 
 import { SubHeading, MenuItem } from '../../components';
-import { data, images } from '../../constants';
+import { data } from '../../constants';
 import './SpecialMenu.css';
+import AOS from 'aos'
 
-const SpecialMenu = () => (
-  <div className="app__specialMenu flex__center section__padding" id="menu">
+const SpecialMenu = () => {
+  useEffect(()=>{
+    AOS.init({
+      offset: 400,
+      duration: 1400,
+      easing: 'ease'
+    });
+  })
+  return (
+    <div className="app__specialMenu flex__center section__padding" id="specialItem">
     <div className="app__specialMenu-title">
       <SubHeading title="Menu that fits your palatte" />
       <h1 className="headtext__cormorant">Today&apos;s Special</h1>
     </div>
 
     <div className="app__specialMenu-menu">
-      <div className="app__specialMenu-menu_wine  flex__center">
+      <div className="app__specialMenu-menu_wine  flex__center" data-aos="fade-down">
         <p className="app__specialMenu-menu_heading">Wine & Beer</p>
         <div className="app__specialMenu_menu_items">
           {data.wines.map((wine, index) => (
@@ -22,11 +31,11 @@ const SpecialMenu = () => (
         </div>
       </div>
 
-      <div className="app__specialMenu-menu_img">
-        <img src={images.menu} alt="menu__img" />
+      <div className="app__specialMenu-menu_img" data-aos="fade-down">
+        <img src="https://images.pexels.com/photos/2682627/pexels-photo-2682627.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="menu__img" />
       </div>
 
-      <div className="app__specialMenu-menu_cocktails  flex__center">
+      <div className="app__specialMenu-menu_cocktails  flex__center" data-aos="fade-down">
         <p className="app__specialMenu-menu_heading">Cocktails</p>
         <div className="app__specialMenu_menu_items">
           {data.cocktails.map((cocktail, index) => (
@@ -40,6 +49,8 @@ const SpecialMenu = () => (
       <button type="button" className="custom__button">View More</button>
     </div>
   </div>
-);
+  )
+ 
+};
 
 export default SpecialMenu;
