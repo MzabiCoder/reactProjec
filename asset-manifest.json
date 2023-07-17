@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactProjec/static/css/main.f252c927.css",
-    "main.js": "/reactProjec/static/js/main.6f3c48b9.js",
+    "main.js": "/reactProjec/static/js/main.06316618.js",
     "static/media/meal.mp4": "/reactProjec/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
     "static/media/bg.png": "/reactProjec/static/media/bg.3d421b1b5682e1b67deb.png",
     "static/media/welcome.png": "/reactProjec/static/media/welcome.d724eb984456d9c97470.png",
@@ -23,12 +23,12 @@
     "static/media/award03.png": "/reactProjec/static/media/award03.3f7ee934c17dccbd5fc6.png",
     "static/media/sign.png": "/reactProjec/static/media/sign.9bf0bd90ad4caa17991f.png",
     "index.html": "/reactProjec/index.html",
-    "static/media/spoon.svg": "/reactProjec/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
+    "static/media/spoon.svg": "/reactProjec/static/media/spoon.b5681c867bb867d794693513d048401f.svg",
     "main.f252c927.css.map": "/reactProjec/static/css/main.f252c927.css.map",
-    "main.6f3c48b9.js.map": "/reactProjec/static/js/main.6f3c48b9.js.map"
+    "main.06316618.js.map": "/reactProjec/static/js/main.06316618.js.map"
   },
   "entrypoints": [
     "static/css/main.f252c927.css",
-    "static/js/main.6f3c48b9.js"
+    "static/js/main.06316618.js"
   ]
 }
