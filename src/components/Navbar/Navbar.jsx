@@ -22,9 +22,9 @@ const Navbar = () => {
       <img src="https://static1.squarespace.com/static/600627b33a7365382a86665e/t/600629afe996e1572906e20d/1611016634169/Big-Easy-logo.png?format=1500w" alt="app logo" />
     </div>
     <ul className='app__navbar-links' data-aos="fade-down">
-      <li className='p__cormorant'> <a href="#header">Home</a></li>
-      <li className='p__cormorant'> <a href="#about">About</a></li>
-      <li className='p__cormorant'> <a href="#specialItem">Menu</a></li>
+      <li className='p__cormorant'> <a href="#header">Main</a></li>
+      <li className='p__cormorant'> <a href="#about">About Us</a></li>
+      <li className='p__cormorant'> <a href="#specialItem">Options</a></li>
       <li className='p__cormorant'> <a href="#awards">Awards</a></li>
       <li className='p__cormorant'> <a href="#contact">Contact</a></li>
     </ul>
